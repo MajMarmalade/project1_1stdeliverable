@@ -106,5 +106,96 @@ div {
 */
 @media screen and (min-width: 768px) {
 
+body {
+  width: 90%;
+  padding: 1.2em;
+  background-color: #6a8f84;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  font-family: Pixles;
+  font-weight: 200;
+}
+
+p{
+  position: relative;
+  padding: 1em;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Pixles;
+  font-weight: 200;
+}
+
+h3{
+  padding: 2.5em;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Pixles;
+  font-weight: 100;
+}
+
+label{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#pyramid_logo {
+  max-width: 35% ;
+  height: auto;
+  display: inline;
+}
+
+div {
+
+  .logo_text{
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline block;
+  }
+
+  .logo_2{
+    background-image: url(../media/8bit_pyramid.png);  
+    background-position: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    display: none;
+    background-size: contain;
+  }
+
+  .submit {
+    background-image: url(../media/eye_submit.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline block;
+    background-size: contain;
+  }
+
+
+}
+
+#form_box {
+  background-color: #c9998b;
+  border: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#hidden {
+  display: none;
+  background-color: #fde7c7;
+  border: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#submit_button{
+  padding: auto;
+}
 
 }
