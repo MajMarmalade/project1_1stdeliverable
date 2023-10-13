@@ -20,6 +20,9 @@ body {
 }
 
 h1{
+  border: black;
+  border-width: 3px;
+  border-style: solid;
   text-align: center;
   font-size: 4em;
   font-family: Pixles;
@@ -55,12 +58,6 @@ label{
 }
 
 div {
-
-  .logo_text{
-    border: black;
-    border-width: 3px;
-    border-style: solid;
-  }
 
   .logo_2{
     background-image: url(../media/8bit_pyramid.png);  
@@ -98,7 +95,7 @@ div {
 }
 
 #submit_button{
-  padding: auto;
+  padding: 1em;
 }
 
 /*
@@ -152,13 +149,6 @@ label{
 
 div {
 
-  .logo_text{
-    border: black;
-    border-width: 3px;
-    border-style: solid;
-    display: inline block;
-  }
-
   .logo_2{
     background-image: url(../media/8bit_pyramid.png);  
     background-position: center;
@@ -195,7 +185,7 @@ div {
 }
 
 #submit_button{
-  padding: auto;
+  padding: 1em;
 }
 
 }
