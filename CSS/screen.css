@@ -1,6 +1,12 @@
 /*
   Mobile Style 
 */
+
+@font-face {
+  font-family: Pixles;
+  src: url(../media/HigherPixels.ttf);
+}
+
 html {
   line-height: 1.5em;
 }
@@ -11,6 +17,63 @@ body {
   background-color: #6a8f84;
   margin: auto;
   text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  font-family: Pixles;
+  font-weight: 200;
+}
+
+p{
+  padding: .5em;
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-family: Pixles;
+  font-weight: 200;
+}
+
+h3{
+  padding: 2.5em;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Pixles;
+  font-weight: 100;
+}
+
+#pyramid_logo {
+  max-width: 65% ;
+  height: auto;
+}
+
+div {
+
+  .logo_text{
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  .logo_2{
+    background-image: url(../media/8bit_pyramid.png);  
+    background-position: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+  }
+
+
+}
+
+#form_box {
+  background-color: #92c9b8;
+  border: black;
+  border-width: 3px;
+  border-style: solid;
 }
 
 /*
