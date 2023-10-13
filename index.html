@@ -5,6 +5,7 @@
   <title>ITMD-362 Project 1</title>
   <link rel="stylesheet" href="css\reset.css">
   <link rel="stylesheet" href="css\screen.css">
+  <script async src="js/script.js"></script>
 </head>
 <body>
   <div class="info">
@@ -20,14 +21,14 @@
     </div>
   </div>
   <div id="form_box">
-  <form method="get" autocomplete="on" action="#null" onsubmit="">
+  <form method="get" autocomplete="on" action="#null" onsubmit="submit()">
     <div id="emailSection">
       <label for="email">E-Mail:</label>
       <input type="email" id="email" name="email_field" placeholder="email here" required>
     </div>
     <div id="checkbox">
       <label for="checkbox">Share for a bonus</label>
-      <input type="checkbox" id="checkbox" name="share" onchange="">
+      <input type="checkbox" id="checkbox" name="share" onchange="showHidden()">
     </div>
     <div id="hidden" class="hidden">
       <div id="hidden_email1">

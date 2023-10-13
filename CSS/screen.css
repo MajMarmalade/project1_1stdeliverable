@@ -79,12 +79,6 @@ div {
     background-size: contain;
   }
 
-  .hidden {
-    background-color: #c7fded;
-    border: black;
-    border-width: 3px;
-    border-style: solid;
-  }
 
 }
 
@@ -95,6 +89,13 @@ div {
   border-style: solid;
 }
 
+#hidden {
+  display: none;
+  background-color: #c7fded;
+  border: black;
+  border-width: 3px;
+  border-style: solid;
+}
 
 #submit_button{
   padding: auto;
