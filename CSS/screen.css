@@ -1,7 +1,17 @@
 /*
   Mobile Style 
 */
+html {
+  line-height: 1.5em;
+}
 
+body {
+  width: 90%;
+  padding: 1.2em;
+  background-color: #6a8f84;
+  margin: auto;
+  text-align: center;
+}
 
 /*
   Desktop Style
