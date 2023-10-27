@@ -74,6 +74,7 @@ div {
     background-repeat: no-repeat;
     display: block;
     background-size: contain;
+    background-color: ;
   }
 
 
@@ -103,38 +104,89 @@ div {
 */
 @media screen and (min-width: 768px) {
 
+  .logo_2{
+    visibility: hidden;
+    background-image: url(../media/8bit_pyramid.png);  
+    background-position: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+.info {
+  width: 100%;
+  padding: .1em;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "logo1 title"
+    "banking tagline";
+}
+
+.logo_1 {
+ grid-area: logo1;
+ background-color: #6a8f84;
+}
+
+.title {
+  padding-right: 10px;
+  grid-area: title;
+  background-color: #6a8f84;
+}
+
+.banking {
+  visibility: visible;
+  grid-area: banking;
+  color: white;
+  background-color: #02030373;
+}
+
+.tagline{
+  visibility: visible;
+  grid-area: tagline;
+  color: white;
+  background-color: #02030373;
+}
+
+
+
 body {
   width: 90%;
   padding: 1.2em;
-  background-color: #6a8f84;
+  background-color: #496b61;
   margin: auto;
   text-align: center;
 }
 
 h1{
+  border: black;
+  padding: .2em;
+  border-width: 4px;
+  border-style: solid;
   text-align: center;
-  font-size: 4em;
+  font-size: 6em;
   font-family: Pixles;
   font-weight: 200;
 }
 
 p{
-  position: relative;
   padding: 1em;
-  display: inline-block;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: Pixles;
-  font-weight: 200;
+  font-weight: 50;
+  display: inline;
 }
 
 h3{
+  
   padding: 2.5em;
-  display: inline-block;
   text-align: center;
   font-size: 1.5em;
   font-family: Pixles;
-  font-weight: 100;
+  font-weight: 50;
+  display: flow-root;
 }
 
 label{
@@ -142,21 +194,13 @@ label{
 }
 
 #pyramid_logo {
-  max-width: 35% ;
-  height: auto;
+  scale: 100%;
   display: inline;
 }
 
 div {
 
-  .logo_2{
-    background-image: url(../media/8bit_pyramid.png);  
-    background-position: center;
-    background-clip: content-box;
-    background-repeat: no-repeat;
-    display: none;
-    background-size: contain;
-  }
+
 
   .submit {
     background-image: url(../media/eye_submit.png);  
@@ -187,5 +231,7 @@ div {
 #submit_button{
   padding: 1em;
 }
+
+
 
 }
