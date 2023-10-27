@@ -11,6 +11,12 @@ html {
   line-height: 3em;
 }
 
+p {
+  font-family: Pixles;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
 body {
   width: 90%;
   padding: 1.2em;
@@ -97,6 +103,18 @@ label{
   padding: 1em;
 }
 
+.details {
+  background-color: #8bc9b6;
+  border: black;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#why {
+  background-color: #bee4d8;
+}
+
+
 /*
   Desktop Style
 */
@@ -121,6 +139,7 @@ label{
     "logo1 title"
     "banking tagline";
 }
+
 
 .logo_1 {
  grid-area: logo1;
