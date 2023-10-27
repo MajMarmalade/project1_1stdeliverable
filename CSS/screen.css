@@ -8,7 +8,7 @@
 }
 
 html {
-  line-height: 1.5em;
+  line-height: 3em;
 }
 
 body {
@@ -29,10 +29,12 @@ h1{
   font-weight: 200;
 }
 
-p{
+h2{
+  width: 60%;
+  height: 20%;
+  padding-bottom: 0%;
   position: relative;
-  padding: 1em;
-  display: block;
+  display: inline-block;
   text-align: center;
   font-size: 1.3em;
   font-family: Pixles;
@@ -40,10 +42,10 @@ p{
 }
 
 h3{
-  padding: 2.5em;
-  display: block;
+  padding: -1.5em;
+  display: inline-block;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: Pixles;
   font-weight: 100;
 }
@@ -57,28 +59,24 @@ label{
   height: auto;
 }
 
-div {
 
-  .logo_2{
-    background-image: url(../media/8bit_pyramid.png);  
-    background-position: center;
-    background-clip: content-box;
-    background-repeat: no-repeat;
-    display: block;
-    background-size: contain;
-  }
-
-  .submit {
-    background-image: url(../media/eye_submit.png);  
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
-    background-size: contain;
-    background-color: ;
-  }
-
-
+.logo_2{
+  background-image: url(../media/8bit_pyramid.png);  
+  background-position: center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: contain;
 }
+
+.submit {
+  background-image: url(../media/eye_submit.png);  
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: contain;
+}
+
 
 #form_box {
   background-color: #8bc9b6;
@@ -170,7 +168,7 @@ h1{
   font-weight: 200;
 }
 
-p{
+h2{
   padding: 1em;
   text-align: center;
   font-size: 1em;
