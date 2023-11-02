@@ -119,6 +119,53 @@ label{
 */
 @media screen and (min-width:768px){
   
+  .logo_2{
+    visibility: hidden;
+    background-image: url(../media/8bit_pyramid.png);  
+    background-position: center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+.info {
+  width: 100%;
+  padding: .1em;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "logo1 title"
+    "banking tagline";
+}
+
+
+.logo_1 {
+ grid-area: logo1;
+ background-color: #6a8f84;
+}
+
+.title {
+  padding-right: 10px;
+  grid-area: title;
+  background-color: #6a8f84;
+}
+
+.banking {
+  visibility: visible;
+  grid-area: banking;
+  color: white;
+  background-color: #02030373;
+}
+
+.tagline{
+  visibility: visible;
+  grid-area: tagline;
+  color: white;
+  background-color: #02030373;
+}
+
+
 }
 
 /*
