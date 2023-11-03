@@ -75,12 +75,24 @@ label{
   background-size: contain;
 }
 
-.submit {
+#submit_button {
+  background-color:#80808050;
+  padding: 1em;
+  color: white;
+  font-size: 1.3em;
+  font-family: Pixles;
+  font-weight: 200;
+  
+}
+
+.submit_graphic {
   background-image: url(../media/eye_submit.png);  
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  background-size: contain;
+  background-size: contain; 
+  padding: 100px;
+  padding-top: 30px;
 }
 
 
@@ -97,10 +109,6 @@ label{
   border: black;
   border-width: 3px;
   border-style: solid;
-}
-
-#submit_button{
-  padding: 1em;
 }
 
 .details {
