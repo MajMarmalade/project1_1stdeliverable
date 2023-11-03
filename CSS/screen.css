@@ -57,7 +57,7 @@ h3{
 }
 
 label{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #pyramid_logo {
@@ -100,10 +100,42 @@ label{
   background-color: #8bc9b6;
   border: black;
   border-width: 3px;
+  width: 100%;
   border-style: solid;
 }
 
-#hidden {
+#email {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  width: inherit;
+  height: 5px;
+}
+
+#checkbox {
+  size: 400%;
+}
+
+#hidden_email1 {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  width: inherit;
+  height: 5px;
+}
+
+#hidden_email2 {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  width: inherit;
+  height: 5px;
+}
+
+#hidden { 
   display: none;
   background-color: #c7fded;
   border: black;
@@ -188,124 +220,124 @@ label{
     background-size: contain;
   }
 
-.info {
-  width: 100%;
-  padding: .1em;
-  display: grid;
-  grid-template-columns: 30% 60%;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "logo1 title"
-    "banking tagline";
-}
+  .info {
+    width: 100%;
+    padding: .1em;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "logo1 title"
+      "banking tagline";
+  }
 
 
-.logo_1 {
- grid-area: logo1;
- background-color: #6a8f84;
-}
-
-.title {
-  
-  grid-area: title;
+  .logo_1 {
+  grid-area: logo1;
   background-color: #6a8f84;
-}
+  }
 
-.banking {
-  visibility: visible;
-  grid-area: banking;
-  color: white;
-  background-color: #02030373;
-}
+  .title {
+    
+    grid-area: title;
+    background-color: #6a8f84;
+  }
 
-.tagline{
-  visibility: visible;
-  grid-area: tagline;
-  color: white;
-  background-color: #02030373;
-}
+  .banking {
+    visibility: visible;
+    grid-area: banking;
+    color: white;
+    background-color: #02030373;
+  }
 
-
-
-body {
-  width: 90%;
-  padding: 1.2em;
-  background-color: #496b61;
-  margin: auto;
-  text-align: center;
-}
-
-h1{
-  border: black;
-  padding: .2em;
-  border-width: 4px;
-  border-style: solid;
-  text-align: center;
-  font-size: 6em;
-  font-family: Pixles;
-  font-weight: 200;
-  line-height: 1.5em;
-}
-
-h2{
-  padding: 1em;
-  text-align: center;
-  font-size: 1em;
-  font-family: Pixles;
-  font-weight: 50;
-  display: inline;
-}
-
-h3{
-  
-  padding: 2.5em;
-  padding-top: 1em;
-  padding-bottom: .5em;
-  text-align: center;
-  font-size: 1.5em;
-  font-family: Pixles;
-  font-weight: 50;
-  display: flow-root;
-}
-
-label{
-  font-family: 'Times New Roman', Times, serif;
-}
-
-#pyramid_logo {
-  scale: 100%;
-  display: inline;
-}
+  .tagline{
+    visibility: visible;
+    grid-area: tagline;
+    color: white;
+    background-color: #02030373;
+  }
 
 
-.submit {
-  background-image: url(../media/eye_submit.png);  
-  background-position: center;
-  background-repeat: no-repeat;
-  display: inline block;
-  background-size: contain;
-}
+
+  body {
+    width: 90%;
+    padding: 1.2em;
+    background-color: #496b61;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1{
+    border: black;
+    padding: .2em;
+    border-width: 4px;
+    border-style: solid;
+    text-align: center;
+    font-size: 6em;
+    font-family: Pixles;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+
+  h2{
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+    font-family: Pixles;
+    font-weight: 50;
+    display: inline;
+  }
+
+  h3{
+    
+    padding: 2.5em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Pixles;
+    font-weight: 50;
+    display: flow-root;
+  }
+
+  label{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #pyramid_logo {
+    scale: 100%;
+    display: inline;
+  }
 
 
-#form_box {
-  padding: .1em;
-  background-color: #c9998b;
-  border: black;
-  border-width: 3px;
-  border-style: solid;
-}
+  .submit {
+    background-image: url(../media/eye_submit.png);  
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline block;
+    background-size: contain;
+  }
 
-#hidden {
-  display: none;
-  background-color: #fde7c7;
-  border: black;
-  border-width: 3px;
-  border-style: solid;
-}
 
-#submit_button{
-  padding: 1em;
-}
+  #form_box {
+    padding: .1em;
+    background-color: #c9998b;
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  #hidden {
+    display: none;
+    background-color: #fde7c7;
+    border: black;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  #submit_button{
+    padding: 1em;
+  }
 
 
 
