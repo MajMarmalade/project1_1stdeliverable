@@ -115,7 +115,7 @@ label{
 }
 
 #checkbox {
-  size: 400%;
+  resize: 400%;
 }
 
 #hidden_email1 {
@@ -306,7 +306,6 @@ label{
   }
 
   #pyramid_logo {
-    scale: 100%;
     display: inline;
   }
 
