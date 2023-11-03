@@ -314,7 +314,7 @@ label{
     background-image: url(../media/eye_submit.png);  
     background-position: center;
     background-repeat: no-repeat;
-    display: inline block;
+    display: inline-block;
     background-size: contain;
   }
 
