@@ -236,6 +236,7 @@ h1{
   font-size: 6em;
   font-family: Pixles;
   font-weight: 200;
+  line-height: 1.5em;
 }
 
 h2{
@@ -279,6 +280,7 @@ label{
 
 
 #form_box {
+  padding: .1em;
   background-color: #c9998b;
   border: black;
   border-width: 3px;
