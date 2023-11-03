@@ -128,42 +128,40 @@ label{
     background-size: contain;
   }
 
-.info {
-  width: 100%;
-  padding: .1em;
-  display: grid;
-  grid-template-columns: 30% 60%;
-  grid-template-rows: auto;
-  grid-template-areas: 
+  .info {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: 
     "logo1 title"
     "banking tagline";
-}
+  }
 
 
-.logo_1 {
- grid-area: logo1;
- background-color: #6a8f84;
-}
-
-.title {
-  padding-right: 10px;
-  grid-area: title;
+  .logo_1 {
+  grid-area: logo1;
   background-color: #6a8f84;
-}
+  }
 
-.banking {
-  visibility: visible;
-  grid-area: banking;
-  color: white;
-  background-color: #02030373;
-}
+  .title {
+   padding-right: 10px;
+   grid-area: title;
+   background-color: #6a8f84;
+  }
 
-.tagline{
-  visibility: visible;
-  grid-area: tagline;
-  color: white;
+  .banking {
+    visibility: visible;
+    grid-area: banking;
+    color: white;
   background-color: #02030373;
-}
+  }
+
+  .tagline{
+   visibility: visible;
+   grid-area: tagline;
+    color: white;
+   background-color: #02030373;
+  }
 
 
 }
@@ -200,7 +198,7 @@ label{
 }
 
 .title {
-  padding-right: 10px;
+  
   grid-area: title;
   background-color: #6a8f84;
 }
@@ -252,6 +250,8 @@ h2{
 h3{
   
   padding: 2.5em;
+  padding-top: 1em;
+  padding-bottom: .5em;
   text-align: center;
   font-size: 1.5em;
   font-family: Pixles;
@@ -268,20 +268,15 @@ label{
   display: inline;
 }
 
-div {
 
-
-
-  .submit {
-    background-image: url(../media/eye_submit.png);  
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline block;
-    background-size: contain;
-  }
-
-
+.submit {
+  background-image: url(../media/eye_submit.png);  
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline block;
+  background-size: contain;
 }
+
 
 #form_box {
   background-color: #c9998b;
